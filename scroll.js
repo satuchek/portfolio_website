@@ -1,27 +1,42 @@
+var pageLinks = ["#home", "#about", "#work", "#contact"];
+var index = 0;
+
+var scroll = 0;
+var scrollable = true;
+
 if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
 window.onmousewheel = document.onmousewheel = wheel;
 
-window.onload = hideScroll();
+/*window.onload = hideScroll();*/
+
+var p = $("#contact");
+var offset = p.offset();
+
 
 function wheel(event) {
-    var delta = 0;
-    if (event.wheelDelta) delta = event.wheelDelta / 120;
-    else if (event.detail) delta = -event.detail / 3;
-
-    handle(delta);
-    if (event.preventDefault) event.preventDefault();
-    event.returnValue = false;
+	
+	
+	event.preventDefault();
+	if (scrollable){
+		if (scroll == 0){
+			scroll = 1;
+			if (event.deltaY < 0){
+				if (index != 0){
+					index--;
+					$(pageLinks[index]).get(0).scrollIntoView();
+				}
+			}else{
+				if (index != 3){
+					index++;
+					//$('html,body').animate({scrollTop: $("contact").scrollTop() }, 1000);
+					$(pageLinks[index]).get(0).scrollIntoView();
+				}
+			}
+			setTimeout(function(){scroll=0},500);
+		}
+	}
 }
 
-function handle(delta) {
-    var time = 100;
-	var distance = 796;
-    
-    $('html, body').stop().animate({
-        scrollTop: $(window).scrollTop() - (distance * delta)
-    }, time );
-}
-
-function hideScroll(){
-	document.getElementById("navBar").style.display = "none";
+function setScrollable(state){
+	scrollable = state;
 }
