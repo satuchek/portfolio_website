@@ -28,7 +28,7 @@
 		<div id = "home_text">
 			<h1 id="title1">Hi, my name is <b>Storm</b>. </h1>
 			<h2 id="title2"> I'm a software developer.</h2>
-			<a href="#about"><button id="aboutme" onclick="adjustIndex()">About Me</button></a>
+			<a href="#about"><button id="aboutme" onclick="adjustIndex(1)">About Me</button></a>
 		</div>
 	</div>
 	
@@ -297,10 +297,10 @@
 </div>
 
 <ul id="navBar">
-		<a class = "navBar_item" href="#contact"><li>Contact</li></a>
-		<a class = "navBar_item"  href="#work"><li>Work</li></a>
-		<a class = "navBar_item"  href="#about"><li>About</li></a>
-		<a class = "navBar_item"  href="#home"><li>Home</li></a>
+		<a class = "navBar_item" href="#contact" onClick = adjustIndex(3)><li>Contact</li></a>
+		<a class = "navBar_item"  href="#work" onClick = adjustIndex(2)><li>Work</li></a>
+		<a class = "navBar_item"  href="#about" onClick = adjustIndex(1)><li>About</li></a>
+		<a class = "navBar_item"  href="#home" onClick = adjustIndex(0)><li>Home</li></a>
 </ul>
 	</body>
 </html>
