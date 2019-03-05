@@ -297,7 +297,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	z-index: 1000;
+	z-index: 5;
 }
 
 li {
@@ -312,7 +312,7 @@ li {
 	padding-top: 1%;
 	padding-bottom: 1%;
 	transition: background-color 500ms;
-	z-index: 1000;
+	z-index: 5;
  }
  
  li:hover{
@@ -323,6 +323,7 @@ li {
 	 color: white;
 	 text-decoration: none;
 	 transition: color 100ms;
+	 z-index: 5;
 
  }
  
@@ -353,6 +354,7 @@ li {
 	position: fixed;
 	top: 0;
 	display: block;
+	z-index: 5;
 	
 }
 
