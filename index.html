@@ -6,7 +6,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<!--<script src="scroll.js"></script> -->
+	<script src="scroll.js"></script>
 	
 	<title>Storm Tuchek</title>
 	</head>
@@ -133,7 +133,7 @@
 	
 	
 		<div id="card_container">
-			<div class="card" id = "ghostie" onclick = "expandGhostie()">
+			<div class="card" id = "ghostie" onclick = "expandGhostie(), setScrollable(false)">
 				<img class = "card_img_top" src ="images/Pass_On_Ghostie/pass_on_ghostie.png" />
 				<div id="container">
 					<p class="quicksand">Pass On, Ghostie</p>
@@ -141,7 +141,7 @@
 				</div>
 			</div>
 
-			<div class="card" id ="gwc" onclick = "expandGWC()">
+			<div class="card" id ="gwc" onclick = "expandGWC(), setScrollable(false)">
 				<img class = "card_img_top" src ="images/Girls_Who_Code/girls_who_code.png" />
 				<div id="container">
 					<p class="quicksand">Girls Who Code</p>
@@ -149,7 +149,7 @@
 				</div>
 			</div>
 			
-			<div class="card" id="liquid" onclick = "expandCourage()">
+			<div class="card" id="liquid" onclick = "expandCourage(), setScrollable(false)">
 				<img class = "card_img_top" src ="images/Liquid_Courage/liquid_courage.png" />
 				<div id="container">
 					<p class="quicksand">Liquid Courage</p>
@@ -157,7 +157,7 @@
 				</div>
 			</div>
 			
-			<div class="card" id="portfolio" onclick = "expandPortfolio()">
+			<div class="card" id="portfolio" onclick = "expandPortfolio(), setScrollable(false)">
 				<img class = "card_img_top" src ="images/Portfolio_Website/portfolio.png" />
 				<div id="container">
 					<p class="quicksand">Portfolio</p>
@@ -169,7 +169,7 @@
 
 		
 		<div id="ghostie_card_expand">
-			<img id="close" onclick="contractGhostie()" src="images/icons/close.png" />
+			<img id="close" onclick="contractGhostie(), setScrollable(true)" src="images/icons/close.png" />
 			
 			<div id = "carousel">
 				<img onclick = "prevImage()" class = "carousel_arrow" src = "images/icons/arrow_left.png" />
@@ -194,7 +194,7 @@
 		</div>
 		
 		<div id="GWC_card_expand">
-			<img id="close" onclick="contractGWC()" src="images/icons/close.png" />
+			<img id="close" onclick="contractGWC(), setScrollable(true)" src="images/icons/close.png" />
 			
 			<div id = "carousel">
 				<img onclick = "prevImage()" class = "carousel_arrow" src = "images/icons/arrow_left.png" />
@@ -219,7 +219,7 @@
 		</div>
 		
 		<div id="courage_card_expand">
-			<img id="close" onclick="contractCourage()" src="images/icons/close.png" />
+			<img id="close" onclick="contractCourage(), setScrollable(true)" src="images/icons/close.png" />
 			
 			<div id = "carousel">
 				<img onclick = "prevImage()" class = "carousel_arrow" src = "images/icons/arrow_left.png" />
@@ -244,7 +244,7 @@
 		</div>
 
 		<div id="portfolio_card_expand">
-			<img id="close" onclick="contractPortfolio()" src="images/icons/close.png" />
+			<img id="close" onclick="contractPortfolio(), setScrollable(true)" src="images/icons/close.png" />
 			
 			<div id = "carousel">
 				<img class = "carousel_arrow" src = "images/icons/arrow_left.png" />
