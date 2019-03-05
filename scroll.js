@@ -41,6 +41,6 @@ function setScrollable(state){
 	scrollable = state;
 }
 
-function adjustIndex(){
-	index = 1;
+function adjustIndex(newIndex){
+	index = newIndex;
 }
