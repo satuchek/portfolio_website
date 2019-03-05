@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html >
+	<head>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="scroll.js"></script>
+	
+	<title>Storm Tuchek</title>
+	</head>
+	<body >
+	<!-- onscroll = "scrollAbout()" -->
+	
+	
+	<!-- HOME PAGE
+	-------------------------------------
+	-------------------------------------
+	-------------------------------------
+	------------------------------------->
+	
+	<div id="home">
+		<canvas id = "myCanvas"></canvas>
+		<script src = "javascript.js"></script>
+		
+		
+		<div id = "home_text">
+			<h1 id="title1">Hi, my name is <b>Storm</b>. </h1>
+			<h2 id="title2"> I'm a software developer.</h2>
+			<a href="#about"><button id="aboutme">About Me</button></a>
+		</div>
+	</div>
+	
+	
+	<!-------------------------------
+		ABOUT	PAGE
+	---------------------------------
+	---------------------------------
+	-------------------------------->
+	
+	
+	<div id="about">	
+		<h3 class = "page_heading" >About</h3>
+		<div id="line"></div>
+		<p class = "about_text" >I am a software developer based in Atlanta, GA. Hello my name is Loca and
+				I'm a special pug. I live in Belfast, Ireland and me favorite thing's a hug. I like to eat roast chicken, and my friend's think
+				I'm great fun, but the one thing that I cannot do is I can't fecking run. IM BOUNCING, FLOUNCING, ROLLING ALL AROUND THE SHOW.<br /></p>
+		
+		<div id = "educationExperience">
+		
+			<div id="education">
+			
+				<div id = "eduHead">
+					<img class= "about_icon" src="images/icons/education_done.png"/>
+					<h4 class = "section_heading" > Education </h4>
+					<div id="line"> </div>
+					
+				</div>
+				
+				<div id="eduText">
+					<p class = "about_text" ><br></br>Bachelor of Science in Computer Science </p>
+					<p class = "about_text" >Kennesaw State University</p>
+					<p class = "about_text" > Expected <b>2019 </b></p>
+					
+					
+				</div>
+						</div>
+			<div id = "experience">
+				<div id = "workHead">
+					<img class= "about_icon" src="images/icons/work.png" />
+					<h4 class = "section_heading" > Work Experience </h4>
+				</div>
+				
+				<div id = "workText">
+					<p class = "about_text" >The Coder School</p>
+					<p class = "about_text" > Code Coach </p>
+					<p class = "about_text" > 2018 - Present </p>
+				</div>
+				
+			</div>
+				
+		</div>
+
+		
+		<div id = "skills">
+			<img class= "about_icon" src = "images/icons/skills.png"/>
+			<h4 class = "section_heading"  id="skillsLabel"> Skills</h4>
+			<div id = "skillsText">
+				<div id="java_div">
+					<p class = "about_text" > <br></br>Java  </p><div id="java_p"></div>
+				</div>
+				
+				<div id="cs_div">
+					<p class = "about_text" > C# 	</p><div id="cs_p"></div>
+				</div>
+				
+				<div id="sql_div">
+					<p class = "about_text" > SQL </p><div id="sql_p"></div>
+				</div>
+				
+				<div id="python_div">
+					<p class = "about_text" > Python	</p><div id="python_p"></div> 
+				</div>
+				
+				<div id="html_div">
+					<p class = "about_text" > HTML / CSS </p><div id="html_p"></div> 
+				</div>
+				
+				<div id="javascript_div">
+					<p class = "about_text" > Javascript </p><div id="javascript_p"></div> 
+				</div>
+			</div>
+		</div>
+			
+			
+			
+		
+
+	</div>
+	
+	<!---------------------------------------------
+			WORK 				PAGE
+	-----------------------------------------------
+	-----------------------------------------------
+	---------------------------------------------->
+
+<div id="work">
+	<h3 class = "page_heading" >Work</h3>
+	<div id="line"></div>
+	
+	
+	
+		<div id="card_container">
+			<div class="card" id = "ghostie" onclick = "expandGhostie()">
+				<img class = "card_img_top" src ="images/Pass_On_Ghostie/pass_on_ghostie.png" />
+				<div id="container">
+					<p class="quicksand">Pass On, Ghostie</p>
+					<p class="dosis" id="p">A game created for the 2018 Global Game Jam with the theme Transmission.</p>
+				</div>
+			</div>
+
+			<div class="card" id ="gwc" onclick = "expandGWC()">
+				<img class = "card_img_top" src ="images/Girls_Who_Code/girls_who_code.png" />
+				<div id="container">
+					<p class="quicksand">Girls Who Code</p>
+					<p class="dosis" id="p" >I facilitate a club in Cobb County teaching girls 6th-12th grade computer science concepts.</p>
+				</div>
+			</div>
+			
+			<div class="card" id="liquid" onclick = "expandCourage()">
+				<img class = "card_img_top" src ="images/Liquid_Courage/liquid_courage.png" />
+				<div id="container">
+					<p class="quicksand">Liquid Courage</p>
+					<p class="dosis" id="p" >A game created for the Fall 2017 KSU Game Jam with the theme "The Player is not the Main Character." </p>
+				</div>
+			</div>
+			
+			<div class="card" id="portfolio" onclick = "expandPortfolio()">
+				<img class = "card_img_top" src ="images/Portfolio_Website/portfolio.png" />
+				<div id="container">
+					<p class="quicksand">Portfolio</p>
+					<p class="dosis" id="p">A web portfolio I created to showcase my work using HTML, CSS, and Javascript. </p>
+				</div>
+			</div>
+		</div>
+		
+
+		
+		<div id="ghostie_card_expand">
+			<img id="close" onclick="contractGhostie()" src="images/icons/close.png" />
+			
+			<div id = "carousel">
+				<img onclick = "prevImage()" class = "carousel_arrow" src = "images/icons/arrow_left.png" />
+				<img class = "carousel_image" id="ghostie_image" src="images/Pass_On_Ghostie/ghostie_home.png" />
+				<img onclick = "nextImage()" class = "carousel_arrow" src = "images/icons/arrow_right.png" />
+				<p class = "imageText" id = "ghostieImageText"></p>
+				
+			</div>
+			<div id = "text">
+				<h1 class="projectTitle">Pass On, Ghostie</h1>
+				<p class="projectText">Pass On, Ghostie was a game that I created with a team during the 2018 Global Game Jam. We decided to create a game about a ghost that
+										must possess others' bodies, and die in them, in order to interact with the physical world. I was responsible for implementing the systems that 
+										allow the ghost to possess bodies as well as the way the gravestones interact with the world. You can view the trailer on Youtube or see our
+										page on the Global Game Jam site by clicking the icons to the right!</p>
+			</div>
+			
+			<div id="icons">
+				<a href = "https://www.youtube.com/watch?v=4tvysd3Rk94&feature=youtu.be" target="_blank"><img class = "icon" src="images/icons/youtube.png" /></a>
+				<a href = "https://globalgamejam.org/2018/games/pass-ghostie" target="_blank"><img class = "icon" src = "images/icons/ggj.png" /></a>
+			</div>
+		
+		</div>
+		
+		<div id="GWC_card_expand">
+			<img id="close" onclick="contractGWC()" src="images/icons/close.png" />
+			
+			<div id = "carousel">
+				<img onclick = "prevImage()" class = "carousel_arrow" src = "images/icons/arrow_left.png" />
+				<img class = "carousel_image" id="GWC_image" src="images/Girls_Who_Code/gwc_breakout.png" />
+				<img onclick = "nextImage()" class = "carousel_arrow" src = "images/icons/arrow_right.png" />
+				<p class = "imageText" id = "gwcImageText"></p>
+				
+			</div>
+			<div id = "text">
+				<h1 class="projectTitle">Girs Who Code: Cobb County</h1>
+				<p class="projectText">In the fall of 2018, I became the lead facilitator for Cobb County Library System's Girls Who Code club. We are now in our second 
+										semester and I have worked with my co-faciliators to create a curriculum for teaching middle and high-school girls a variety of 
+										computer science topics. We introduce them to robotics, web development, as well as programming in Python. At the end of each
+										semester, the girls build a project to help the community. You can see news about us by clicking on the icon to the right!</p>
+			</div>
+			
+			<div id="icons">
+				<img class = "icon" src="images/icons/news.png" />
+				<img class = "icon" src="images/icons/github.png" />
+			</div>
+		
+		</div>
+		
+		<div id="courage_card_expand">
+			<img id="close" onclick="contractCourage()" src="images/icons/close.png" />
+			
+			<div id = "carousel">
+				<img onclick = "prevImage()" class = "carousel_arrow" src = "images/icons/arrow_left.png" />
+				<img class = "carousel_image" id="courage_image" src="images/Liquid_Courage/courage_jump.png" />
+				<img onclick = "nextImage()" class = "carousel_arrow" src = "images/icons/arrow_right.png" />
+				<p class = "imageText" id = "courageImageText"></p>
+				
+			</div>
+			<div id = "text">
+				<h1 class="projectTitle">Liquid Courage</h1>
+				<p class="projectText">Liquid courage is a game I created with a team in Fall 2017 for the KSU Fall Game Jam. The object of the game is to lead low-health
+										villagers through a dangerous dungeon by placing barriers, bridges, and crates. I was responsible for programming the objects to be 
+										draggable onto the play area from the UI. I was also responsible for making the background parallax. You can check out our trailer by
+										clicking the Youtube link to the right or download a demo by following the Github link!</p>
+			</div>
+			
+			<div id="icons">
+				<a href = "https://www.youtube.com/watch?v=zIwSfkbe04o" target = "_blank"><img class = "icon" src="images/icons/youtube.png" /></a>
+				<img class = "icon" src = "images/icons/github.png" />
+			</div>
+		
+		</div>
+
+		<div id="portfolio_card_expand">
+			<img id="close" onclick="contractPortfolio()" src="images/icons/close.png" />
+			
+			<div id = "carousel">
+				<img class = "carousel_arrow" src = "images/icons/arrow_left.png" />
+				<img class = "carousel_image" id="portfolio_image" src="http://images2.fanpop.com/image/photos/13900000/Pretty-Dog-in-Garden-puppies-13904484-1920-1200.jpg" />
+				<img class = "carousel_arrow" src = "images/icons/arrow_right.png" />
+				
+			</div>
+			<div id = "text">
+				<h1 class="projectTitle">Web Portfolio</h1>
+				<p class="projectText">I created my web portfolio using HTML, CSS, and Javascript. I created my web portfolio to be able to showcase my projects as well 
+										as have a professional presence online. In addition to pure Javascript, I also utilized JQuery to smooth the development process. 
+										I focused on responsive design practices so that the website will look attractive on a variety of screen sizes. You can check out 
+										the source code at the Github link to the right!</p>
+			</div>
+			
+			<div id="icons">
+				<img class = "icon" src="images/icons/github.png" />
+			</div>
+		
+		</div>
+	
+	
+</div>
+
+<div id="contact">
+	<h3 class = "page_heading" >Contact</h3>
+	<div id="line"></div>
+	
+
+		
+		<div class = "contact_card">
+			<img id = "portrait" src = "https://www.sarahspetportraits.co.uk/wp-content/gallery/dog-pet-portraits/Taz-web-.jpg" />
+			<h1 id="hello">Hello, </h1>
+			<p id = "bio" align="justify">My name is Storm and I'm a senior Computer Science student at Kennesaw State University. I began programming
+										three years ago with C++. Since then, I've learned Java and Python, and I found my passion in web development.
+										I enjoy creating websites that users like to interact with, and I love experimenting with adding dynamic elements
+										to my websites with web APIs. Recently, I've been working hard with the Girls Who Code program to spread passion for 
+										technology by introducing more women and girls to programming. Below you can find my LinkedIn, Github, or download
+										my resume. </p>
+			<div id = "bio_links">
+				<img class = "bio_image" src = "images/icons/linkedin.png" />
+				<img class = "bio_image" src = "images/icons/github.png" />
+				<img class = "bio_image" src = "images/icons/resume.png" />
+			
+			
+			</div>
+		
+		</div>
+
+</div>
+
+<ul id="navBar">
+		<a class = "navBar_item" href="#contact"><li>Contact</li></a>
+		<a class = "navBar_item"  href="#work"><li>Work</li></a>
+		<a class = "navBar_item"  href="#about"><li>About</li></a>
+		<a class = "navBar_item"  href="#home"><li>Home</li></a>
+</ul>
+	</body>
+</html>
