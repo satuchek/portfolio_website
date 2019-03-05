@@ -40,3 +40,7 @@ function wheel(event) {
 function setScrollable(state){
 	scrollable = state;
 }
+
+function adjustIndex(){
+	index = 1;
+}
