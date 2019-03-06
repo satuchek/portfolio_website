@@ -634,3 +634,7 @@ li {
 	width: 26%;
 	margin: 3%;
 }
+
+.bio_image:hover{
+	cursor: pointer;
+}
