@@ -10,6 +10,9 @@ var courageImageText = ["NPCs will auto-jump over small gaps.", "Pathways must b
 var gwcImages = ["images/Girls_Who_Code/gwc_breakout.png", "images/Girls_Who_Code/gwc_python.png", "images/Girls_Who_Code/gwc_web.png"];
 var gwcImageText = ["A Javascript breakout game the girls completed in Trinket.", "A turtle racing simulator created in Python.", "A beginner website created by students."];
 
+var portfolioImages = ["images/Portfolio_Website/github_repository.png", "images/Portfolio_Website/google_analytics.png", "images/Portfolio_Website/website_netlify.png"];
+var portfolioImageText = ["The site's Github repository.", "Site statistics are tracked via Google Analytics.", "The website is hosted with Netlify and updates with Github commits."];
+
 var index = 0;
 var currentImages = ghostieImages;
 var currentText = ghostieImageText;
@@ -124,10 +127,10 @@ function contractGWC(){
 
 function expandCourage(){
 	if (canOpen){
-		currentImages = courageImages;
-		currentText = courageImageText;
-		imageID = "#courage_image";
-		textID = "courageImageText";
+		currentImages = portfolioImages;
+		currentText = portfolioImageText;
+		imageID = "#portfolio_image";
+		textID = "portfolioImageText";
 		index = 0;
 
 		$('.imageText').css("margin-left" , "20%");
@@ -163,6 +166,16 @@ function contractCourage(){
 
 function expandPortfolio(){
 	if (canOpen){
+		currentImages = courageImages;
+		currentText = courageImageText;
+		imageID = "#courage_image";
+		textID = "courageImageText";
+		index = 0;
+
+		$('.imageText').css("margin-left" , "20%");
+		$(`${imageID}`).attr('src', currentImages[index]);
+		document.getElementById(`${textID}`).innerHTML = currentText[index];
+		
 		$('.card').css("opacity" , "0.25");
 		$('#ghostie').addClass("noCursor");
 		$('#gwc').addClass("noCursor");
