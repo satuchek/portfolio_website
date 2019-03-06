@@ -127,10 +127,11 @@ function contractGWC(){
 
 function expandCourage(){
 	if (canOpen){
-		currentImages = portfolioImages;
-		currentText = portfolioImageText;
-		imageID = "#portfolio_image";
-		textID = "portfolioImageText";
+		
+		currentImages = courageImages;
+		currentText = courageImageText;
+		imageID = "#courage_image";
+		textID = "courageImageText";
 		index = 0;
 
 		$('.imageText').css("margin-left" , "20%");
@@ -166,10 +167,10 @@ function contractCourage(){
 
 function expandPortfolio(){
 	if (canOpen){
-		currentImages = courageImages;
-		currentText = courageImageText;
-		imageID = "#courage_image";
-		textID = "courageImageText";
+		currentImages = portfolioImages;
+		currentText = portfolioImageText;
+		imageID = "#portfolio_image";
+		textID = "portfolioImageText";
 		index = 0;
 
 		$('.imageText').css("margin-left" , "20%");
