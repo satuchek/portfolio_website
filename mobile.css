@@ -256,6 +256,14 @@ b{
 	left: 15%;
 	top: 6%;
 }
+#girlsWhoCode{
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+	width: 70%;
+	left: 15%;
+	top: 25%;
+}
 .project_image{
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
