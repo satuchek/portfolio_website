@@ -280,6 +280,9 @@ b{
 	float: left;
 	width: 40%;
 }
+.offset{
+	margin-top: 5%;
+}
 
 #contact{
 	
