@@ -321,7 +321,7 @@ b{
 	margin-left: 2%;
 	margin-right: 2%;
 }
-.contact-image{
+.contact_image{
 	width: 20%;
 	border-radius: 50%;
 	border-style: solid;
@@ -333,7 +333,7 @@ b{
 	width: 100%;
 }
 .bio_image{
-	width: 25%;
+	width: 20%;
 }
 .projectText{
 	margin-left: 2%;
