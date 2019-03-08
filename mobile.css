@@ -248,6 +248,26 @@ b{
 	
 }
 
+#contact {
+	position: absolute;
+	margin: 0;
+	padding: 3%;
+	top: 715%;
+	width: 100%;
+	height: 100%;
+	background-color: #1F2833;
+	
+}
+
+#contactCard{
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+	width: 70%;
+	left: 15%;
+	top: 4.5%;
+}
+
 #passOnGhostie{
 	position: absolute;
 	background-color: white;
