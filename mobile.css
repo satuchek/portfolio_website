@@ -47,7 +47,7 @@ html, body {
 
 .subheading{
 	color: white;
-	font-size: 10vw;
+	font-size: 12vw;
 }
 
 #line{
@@ -62,17 +62,17 @@ b{
 #about {
 	position: absolute;
 	margin: 0;
-	padding: 2%;
+	padding: 3%;
 	top: 100%;
 	width: 100%;
-	height: 250%;
+	height: 200%;
 	background-color: #1F2833;
 	
 }
 
 .subheading_paragraph{
 	color: white;
-	font-size: 3vw;
+	font-size: 5vw;
 }
 
 
