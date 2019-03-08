@@ -80,7 +80,7 @@ b{
 	margin-right: 2%;
 }
 .section_heading{
-	position: absolute;
+	position: relative;
 	color: white;
 	font-size: 8vw;
 	top: 10%;
