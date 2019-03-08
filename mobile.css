@@ -312,6 +312,29 @@ b{
 	color:  #45a29e;
 	text-align: center;
 }
+.profileTitle{
+	color:  #45a29e;
+	text-align: left;
+}
+.profileText{
+	font-size: 4vw;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.contact-image{
+	width: 20%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: thick;
+	border-color: #45a29e;;
+	margin-left: 20%
+}
+.profileIcons{
+	width: 100%;
+}
+.bio_image{
+	width: 25%;
+}
 .projectText{
 	margin-left: 2%;
 	margin-right: 2%;
