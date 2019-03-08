@@ -74,6 +74,17 @@ b{
 	color: white;
 	font-size: 5vw;
 }
+.about_icon{
+	width: 20%;
+}
+.section_heading{
+	color: white;
+	font-size: 8vw;
+}
+.about_text{
+	color: white;
+	font-size: 5vw;
+}
 
 
 #contact{
