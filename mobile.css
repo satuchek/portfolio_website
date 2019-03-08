@@ -29,22 +29,30 @@ html, body {
 }
 
 .title{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 85%;
 	color: white;
-	font-size: 5vw;
+	font-size: 14vw;
 }
 .subtitle{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 85%;
 	color: white;
-	font-size: 4.5vw;
+	font-size: 10vw;
 }
 
 .subheading{
 	color: white;
-	font-size: 4.5vw;
+	font-size: 10vw;
 }
 
 #line{
-	width: 80%;
-	height: 2%;
+	width: 90%;
+	height: 1%;
 	background-color: #66FCF1;
 }
 b{
@@ -53,7 +61,7 @@ b{
 
 #about {
 	position: absolute;
-	margin: 0;
+	margin-left: 5%;
 	padding: 0;
 	top: 100%;
 	width: 100%;
