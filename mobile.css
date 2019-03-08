@@ -1,6 +1,7 @@
 * { margin: 0; padding: 0;}
 
 html, body {
+	position: absolute;
 	max-width: 100%;
 	overflow-x: hidden;
 	width:  100%;
