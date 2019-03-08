@@ -76,6 +76,8 @@ b{
 }
 .about_icon{
 	width: 20%;
+	float: left;
+	margin-right: 2%;
 }
 .section_heading{
 	color: white;
