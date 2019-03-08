@@ -123,22 +123,22 @@ b{
 }
 #eduText{
 	position: absolute;
-	top: 10%;
-	left: 20%;
+	top: 12%;
+	left: 19%;
 	width: 60%;
 }
 
 #workText{
 	position: absolute;
-	top: 25%;
-	left: 20%;
+	top: 60%;
+	left: 19%;
 	width: 60%;
 }
 
 #skillsText{
 	position: absolute;
-	top: 15%;
-	left: 20%;
+	top: 18%;
+	left: 19%;
 	width: 60%;
 }
 #contact{
