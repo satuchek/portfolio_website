@@ -254,15 +254,26 @@ b{
 	border-radius: 5px;
 	width: 70%;
 	left: 15%;
-	top: 15%;
+	top: 6%;
 }
 .project_image{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	width: 100%;
 }
 .projectTitle{
 	margin-top: 2%;
 	color:  #45a29e;
 	text-align: center;
+}
+.projectIcons{
+	position: absolute;
+	top: 60%;
+	width: 60%;
+	left: 20%;
+}
+.project_icon{
+	float: left;
 }
 #contact{
 	
