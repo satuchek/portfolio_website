@@ -116,6 +116,12 @@ b{
 	
 	
 }
+#eduText{
+	position: absolute;
+	top: 10%;
+	left: 8%;
+	width: 100%;
+}
 #contact{
 	
 }
