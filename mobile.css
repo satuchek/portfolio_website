@@ -253,9 +253,17 @@ b{
 	background-color: white;
 	border-radius: 5px;
 	width: 70%;
-	left: 10%;
+	left: 15%;
+	top: 15%;
 }
-
+.project_image{
+	width: 100%;
+}
+.projectTitle{
+	margin-top: 2%;
+	color:  #45a29e;
+	text-align: center;
+}
 #contact{
 	
 }
