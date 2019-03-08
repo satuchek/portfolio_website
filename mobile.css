@@ -29,8 +29,13 @@ html, body {
 }
 
 .title{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+	text-align: center;
 	color: white;
-	font-size: 10vw;
+	font-size: 14vw;
 }
 .subtitle{
 	color: white;
