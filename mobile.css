@@ -15,7 +15,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	top: 0%;
-	width: 103%;
+	width: 104%;
 	height: 110%;
 	background: linear-gradient(45deg, #0b0c10 1%,#1f2833 44%,#45a29e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
