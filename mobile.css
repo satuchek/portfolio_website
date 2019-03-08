@@ -266,6 +266,11 @@ b{
 	color:  #45a29e;
 	text-align: center;
 }
+.projectText{
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 3vw;
+}
 .projectIcons{
 	margin-top: 3%;
 	margin-left: 20%;
@@ -275,6 +280,7 @@ b{
 	float: left;
 	width: 20%;
 }
+
 #contact{
 	
 }
