@@ -30,15 +30,19 @@ html, body {
 
 .title{
 	position: absolute;
-	top: 20%;
+	top: 30%;
 	left: 10%;
 	width: 85%;
 	color: white;
 	font-size: 14vw;
 }
 .subtitle{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 85%;
 	color: white;
-	font-size: 4.5vw;
+	font-size: 10vw;
 }
 b{
 	color: #66FCF1;
