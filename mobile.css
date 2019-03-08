@@ -80,14 +80,17 @@ b{
 	margin-right: 2%;
 }
 .section_heading{
-	position: relative;
 	color: white;
 	font-size: 8vw;
-	top: 10%;
+	float: left;
+	margin-top: 3%;
 }
 .about_text{
 	color: white;
 	font-size: 5vw;
+	margin-left: 5%;
+	margin-top: 1%;
+	width: 90%;
 }
 
 #education{
