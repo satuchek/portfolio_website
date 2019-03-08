@@ -77,6 +77,7 @@ b{
 .subheading_paragraph{
 	color: white;
 	font-size: 5vw;
+	width: 90%;
 }
 .about_icon{
 	width: 20%;
@@ -123,8 +124,15 @@ b{
 #eduText{
 	position: absolute;
 	top: 10%;
-	left: 12%;
-	width: 100%;
+	left: 15%;
+	width: 90%;
+}
+
+#workText{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	width: 90%;
 }
 #contact{
 	
