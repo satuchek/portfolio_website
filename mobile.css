@@ -237,7 +237,24 @@ b{
 	height: 25%;
 	background: #66FCF1;
 }
+#projects {
+	position: absolute;
+	margin: 0;
+	padding: 3%;
+	top: 240%;
+	width: 100%;
+	height: 325%;
+	background-color: #1F2833;
+	
+}
 
+#passOnGhostie{
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+	width: 70%;
+	left: 10%;
+}
 
 #contact{
 	
