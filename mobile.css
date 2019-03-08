@@ -271,7 +271,16 @@ b{
 	border-radius: 5px;
 	width: 70%;
 	left: 15%;
-	top: 40%;
+	top: 41%;
+}
+
+#portfolioWebsite{
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+	width: 70%;
+	left: 15%;
+	top: 60%;
 }
 .project_image{
 	border-top-left-radius: 5px;
