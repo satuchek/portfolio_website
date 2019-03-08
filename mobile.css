@@ -88,7 +88,29 @@ b{
 	font-size: 5vw;
 }
 
+#education{
+	position: absolute;
+	width: 100%;
+	left: 3%;
+	top: 20%;
+}
 
+#work{
+	position: absolute;
+	width: 100%;
+	left: 3%;
+	top: 40%;
+	
+}
+
+#skills{
+	position: absolute;
+	width: 100%;
+	left: 3%;
+	top: 60%;
+	
+	
+}
 #contact{
 	
 }
