@@ -11,7 +11,7 @@ html, body {
 }
 
 #home{
-	position: absolute;
+	position: fixed;
 	margin: 0;
 	padding: 0;
 	top: 0%;
@@ -60,7 +60,7 @@ b{
 }
 
 #about {
-	position: absolute;
+	position: fixed;
 	margin: 0;
 	padding: 3%;
 	top: 100%;
