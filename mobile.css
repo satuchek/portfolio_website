@@ -63,7 +63,7 @@ b{
 }
 
 #about {
-	position: fixed;
+	position: absolute;
 	margin: 0;
 	padding: 3%;
 	top: 100%;
