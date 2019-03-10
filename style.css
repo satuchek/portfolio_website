@@ -14,7 +14,7 @@ html, body {
 	z-index: 0;
 }
 
--webkit-scrollbar { /* WebKit */
+::-webkit-scrollbar { /* WebKit */
     width: 0;
     height: 0;
 }
