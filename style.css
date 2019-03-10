@@ -1,11 +1,12 @@
 
 * { margin: 0; padding: 0;}
-html{
-	overflow: hidden;
-}
+
 html, body {
 	max-width: 100%;
-
+	overflow-x: hidden;
+    	overflow-y: scroll;
+    	scrollbar-width: none; /* Firefox */
+   	-ms-overflow-style: none;  /* IE 10+ */
 	width:  100%;
 	height: 100%;
 	margin: 0;
@@ -13,8 +14,9 @@ html, body {
 	z-index: 0;
 }
 
-body{
-	overflow-y: scroll;
+-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
 
 /* This is the section for the home page */
