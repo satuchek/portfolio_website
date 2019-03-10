@@ -273,7 +273,7 @@ b{
 	background-color: white;
 	border-radius: 5px;
 	width: 70%;
-	height: 25%;
+	height: 21.88%;
 	overflow-y: scroll;
 	left: 15%;
 	top: 4.5%;
@@ -283,8 +283,10 @@ b{
 	background-color: white;
 	border-radius: 5px;
 	width: 70%;
+	height: 21.88%;
+	overflow-y: scroll;
 	left: 15%;
-	top: 28.5%;
+	top: 28.4%;
 }
 
 #liquidCourage{
