@@ -294,8 +294,10 @@ b{
 	background-color: white;
 	border-radius: 5px;
 	width: 70%;
+	height: 21.88%;
+	overflow-y: scroll;
 	left: 15%;
-	top: 53%;
+	top: 52.3%;
 }
 
 #portfolioWebsite{
@@ -303,8 +305,10 @@ b{
 	background-color: white;
 	border-radius: 5px;
 	width: 70%;
+	height: 21.88%;
+	overflow-y: scroll;
 	left: 15%;
-	top: 76%;
+	top: 76.2%;
 }
 .project_image{
 	border-top-left-radius: 5px;
