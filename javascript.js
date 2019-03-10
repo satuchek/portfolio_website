@@ -1,3 +1,4 @@
+mobile = true;
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
@@ -230,6 +231,11 @@ function prevImage(){
 		document.getElementById(`${textID}`).innerHTML = currentText[index];
 	}
 	
+}
+
+function goToDesktopSite(){
+	flag = false;
+	window.location.href = "https://www.stormtuchek.dev/index_html";
 }
 
 
