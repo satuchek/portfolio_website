@@ -1,15 +1,20 @@
 
 * { margin: 0; padding: 0;}
-
+html{
+	overflow: hidden;
+}
 html, body {
 	max-width: 100%;
-	overflow-x: hidden;
-	overflow-y: hidden;
+
 	width:  100%;
 	height: 100%;
 	margin: 0;
 	scroll-behavior: smooth;
 	z-index: 0;
+}
+
+body{
+	overflow-y: scroll;
 }
 
 /* This is the section for the home page */
