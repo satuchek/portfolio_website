@@ -282,7 +282,8 @@ html, body {
 	margin-top: 3%;
 }
 b{
-	color: #66FCF1;
+/* 	color: #66FCF1; */
+	color: red;
 }
 .about_text{
 	font-size: 1.8vw;
